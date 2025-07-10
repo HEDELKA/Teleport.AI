@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teleport.AI</title>
+  <script>
+    tailwind.config = {
+      darkMode: 'media'
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://api.iconify.design/mdi/rocket-launch-outline.svg?color=%23a855f7" type="image/svg+xml">
+  <meta property="og:title" content="Teleport.AI - Navigate Any Site Instantly with AI">
+  <meta property="og:description" content="Ask a question. Get the answer instantly. AI navigation for your site.">
+  <meta property="og:image" content="https://og-image.vercel.app/Teleport.AI.png">
+  <meta property="og:url" content="https://hedelka.github.io/Teleport.AI/">
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 font-sans">
+  <header class="text-center py-16 px-4">
+    <div class="absolute top-4 right-4">
+      <select id="language-switcher" class="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-md p-2">
+        <option value="en">English</option>
+        <option value="ru">Русский</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+    <h1 class="text-5xl font-extrabold mb-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-transparent bg-clip-text" data-translate="title">
+      Teleport.AI
+    </h1>
+    <p class="text-lg text-gray-500 dark:text-gray-400" data-translate="tagline">One question. One answer. One scroll.</p>
+  </header>
+
+  <section class="max-w-3xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="problem_title">❌ Problem</h2>
+    <p data-translate="problem_text">Users waste 10–30 clicks just to find price, delivery, or support. This kills conversions and frustrates users.</p>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-800">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="solution_title">✅ Solution</h2>
+    <p data-translate="solution_text">Teleport.AI is an AI assistant embedded in your site. Ask a question, and get teleported directly to the answer.</p>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="how_it_works_title">⚙️ How it works</h2>
+    <ul class="list-disc pl-5 space-y-1">
+      <li data-translate="how_it_works_item1">JS widget on your website</li>
+      <li data-translate="how_it_works_item2">Site indexing via LangChain / JS parser</li>
+      <li data-translate="how_it_works_item3">LLM-based question understanding</li>
+      <li data-translate="how_it_works_item4">DOM navigation (scrollIntoView, click)</li>
+    </ul>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-800">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="use_cases_title">🌟 Use Cases</h2>
+    <ul class="list-disc pl-5 space-y-1">
+      <li data-translate="use_cases_item1">E-commerce shops</li>
+      <li data-translate="use_cases_item2">Banks and payment systems</li>
+      <li data-translate="use_cases_item3">SaaS platforms & support centers</li>
+      <li data-translate="use_cases_item4">Government and service portals</li>
+    </ul>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="why_now_title">📈 Why Now</h2>
+    <ul class="list-disc pl-5 space-y-1">
+      <li data-translate="why_now_item1">Exploding open-source LLM space</li>
+      <li data-translate="why_now_item2">Chat interfaces becoming the norm</li>
+      <li data-translate="why_now_item3">Companies crave simplified UX</li>
+      <li data-translate="why_now_item4">No one built AI navigators yet</li>
+    </ul>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-800">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="business_model_title">💰 Business Model</h2>
+    <ul class="list-disc pl-5 space-y-1">
+      <li data-translate="business_model_item1">SaaS: $19–199/month</li>
+      <li data-translate="business_model_item2">White-label licensing</li>
+      <li data-translate="business_model_item3">Enterprise integrations</li>
+    </ul>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="mvp_plan_title">🚀 MVP Plan</h2>
+    <ul class="list-disc pl-5 space-y-1">
+      <li data-translate="mvp_plan_item1">4–6 week MVP timeline</li>
+      <li data-translate="mvp_plan_item2">Tested on real websites</li>
+      <li data-translate="mvp_plan_item3">Built with open-source LLMs</li>
+      <li data-translate="mvp_plan_item4">Voice navigation in next phase</li>
+    </ul>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-800">
+    <h2 class="text-2xl font-semibold mb-2" data-translate="what_we_need_title">🔍 What We Need</h2>
+    <ul class="list-disc pl-5 space-y-1">
+      <li data-translate="what_we_need_item1">Partner or investor support</li>
+      <li data-translate="what_we_need_item2">Minimum team and infra</li>
+      <li data-translate="what_we_need_item3">Early testing opportunities</li>
+    </ul>
+  </section>
+
+  <footer class="text-center py-10">
+    <p class="text-gray-600 dark:text-gray-400" data-translate="founder">Founder: HEDELKA</p>
+    <p class="text-gray-600 dark:text-gray-400" data-translate="telegram">Telegram: <a href="https://t.me/bot_top_ff" class="text-blue-600">@bot_top_ff</a></p>
+    <div class="text-center mt-6">
+      <a href="https://t.me/bot_top_ff" target="_blank"
+         class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl hover:bg-blue-700 transition" data-translate="contact_button">
+        Contact on Telegram
+      </a>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
